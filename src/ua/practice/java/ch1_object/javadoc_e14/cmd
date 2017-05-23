@@ -1,0 +1,1 @@
+C:\Program Files\Java\jdk1.8.0_101\bin>javadoc D:\IdeaProjects\Practice_with_Bruce_Eckel\src\ua\practice\java\ch1_object\javadoc_e13\Documentation*.java D:\IdeaProjects\Practice_with_Bruce_Eckel\src\ua\practice\java\ch1_object\javadoc_e14\E14_DocTest.java -d D:\IdeaProjects\Practice_with_Bruce_Eckel\src\ua\practice\java\ch1_object\javadoc_e13\doc\
