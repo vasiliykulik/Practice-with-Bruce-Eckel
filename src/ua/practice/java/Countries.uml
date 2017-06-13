@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>util.Countries</OriginalElement>
+  <nodes>
+    <node x="0.0" y="339.0">util.Countries</node>
+    <node x="118.125" y="618.0">util.Countries.FlyweightMap</node>
+    <node x="223.125" y="169.0">util.Countries.FlyweightMap.EntrySet</node>
+    <node x="261.125" y="0.0">util.Countries.FlyweightMap.EntrySet.Iter</node>
+    <node x="243.45833333333334" y="743.0">util.Countries.FlyweightMap.Entry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="util.Countries.FlyweightMap.EntrySet" target="util.Countries.FlyweightMap.EntrySet.Iter">
+      <point x="-37.75" y="-60.0" />
+      <point x="260.875" y="144.0" />
+      <point x="282.625" y="144.0" />
+      <point x="-64.5" y="59.5" />
+    </edge>
+    <edge source="util.Countries.FlyweightMap" target="util.Countries.FlyweightMap.EntrySet">
+      <point x="32.0" y="-37.5" />
+      <point x="278.125" y="593.0" />
+      <point x="306.5" y="593.0" />
+      <point x="306.5" y="314.0" />
+      <point x="298.625" y="314.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="util.Countries" target="util.Countries.FlyweightMap">
+      <point x="74.0" y="114.5" />
+      <point x="222.0" y="593.0" />
+      <point x="214.125" y="593.0" />
+      <point x="-32.0" y="-37.5" />
+    </edge>
+    <edge source="util.Countries.FlyweightMap.EntrySet.Iter" target="util.Countries.FlyweightMap.Entry">
+      <point x="21.5" y="59.5" />
+      <point x="368.625" y="144.0" />
+      <point x="392.6474358974359" y="144.0" />
+      <point x="392.6474358974359" y="718.0" />
+      <point x="353.45833333333337" y="718.0" />
+      <point x="0.0" y="-93.5" />
+    </edge>
+    <edge source="util.Countries.FlyweightMap.EntrySet.Iter" target="util.Countries.FlyweightMap.EntrySet">
+      <point x="-21.5" y="59.5" />
+      <point x="325.625" y="144.0" />
+      <point x="336.375" y="144.0" />
+      <point x="37.75" y="-60.0" />
+    </edge>
+    <edge source="util.Countries.FlyweightMap.EntrySet" target="util.Countries.FlyweightMap">
+      <point x="50.33333333333334" y="60.0" />
+      <point x="348.95833333333337" y="314.0" />
+      <point x="334.3525641025641" y="314.0" />
+      <point x="334.3525641025641" y="593.0" />
+      <point x="342.125" y="593.0" />
+      <point x="96.0" y="-37.5" />
+    </edge>
+    <edge source="util.Countries.FlyweightMap" target="util.Countries">
+      <point x="-96.0" y="-37.5" />
+      <point x="150.125" y="593.0" />
+      <point x="74.0" y="593.0" />
+      <point x="-74.0" y="114.5" />
+    </edge>
+    <edge source="util.Countries" target="util.Countries.FlyweightMap.EntrySet">
+      <point x="0.0" y="-114.5" />
+      <point x="148.0" y="314.0" />
+      <point x="248.29166666666666" y="314.0" />
+      <point x="-50.333333333333336" y="60.0" />
+    </edge>
+    <edge source="util.Countries.FlyweightMap.Entry" target="util.Countries.FlyweightMap">
+      <point x="-73.33333333333331" y="-93.5" />
+      <point x="280.125" y="718.0" />
+      <point x="246.125" y="718.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="232.0" y="465.0" />
+  <SelectedNodes>
+    <node>util.Countries</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
