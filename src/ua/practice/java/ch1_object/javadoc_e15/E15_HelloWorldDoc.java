@@ -8,7 +8,7 @@ package ch1_object.javadoc_e15;
  * Extract it into an HTML file using Javadoc
  * and view it with your Web browser.
  ************************************************/
-/** A first example from <i>sTIJ4</i>.
+/** A first example from <j>sTIJ4</j>.
  * Demonstrates the basic class
  * structure and the creation of a
  * <code>main()</code> method.

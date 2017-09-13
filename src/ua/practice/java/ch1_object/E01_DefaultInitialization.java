@@ -15,7 +15,7 @@ public class E01_DefaultInitialization {
   char c;
 
   public E01_DefaultInitialization() {
-    System.out.println("i = " + i);
+    System.out.println("j = " + i);
     System.out.println("c = [" + c + ']');
   }
 

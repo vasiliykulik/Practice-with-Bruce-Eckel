@@ -16,7 +16,7 @@ public class E05_DataOnly2 {
   public static void main(String[] args) {
     E05_DataOnly2 d = new E05_DataOnly2();
     d.i = 47;
-    System.out.println("d.i = " + d.i);
+    System.out.println("d.j = " + d.i);
     d.d = 1.1;
     System.out.println("d.d = " + d.d);
     d.b = false;
