@@ -16,13 +16,14 @@ public class LiftOff implements Runnable {
   }
 
   public String status() {
-    return "#" + id + "(" +
-            (countDown > 0 ? countDown : "Liftoff!") + "), ";
+    return "#" + id + "(" + (countDown > 0 ? countDown : "Liftoff!") + "), ";
   }
 
   public void run() {
+    // first, there is the comparison operation then the arithmetic operation
     while (countDown-- > 0) {
       System.out.print(status());
+    // 52 sec wo Thread.yield(), more than 64 sec with Thread.yield() on simple operation (), int countDown = 10000000;
       Thread.yield();
     }
   }
