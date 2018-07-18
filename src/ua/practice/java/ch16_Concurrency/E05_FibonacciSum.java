@@ -49,7 +49,7 @@ public class E05_FibonacciSum {
   public static void main(String[] args) {
     ExecutorService exec = Executors.newCachedThreadPool();
     ArrayList<Future<Integer>> results = new ArrayList<Future<Integer>>();
-    for (int i = 1; i <= 15; i++) {
+    for (int i = 0; i <= 5; i++) {
       results.add(exec.submit(new FibonacciSum(i)));
     }
     Thread.yield();
