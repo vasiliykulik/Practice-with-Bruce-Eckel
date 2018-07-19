@@ -6,6 +6,6 @@ package ch16_Concurrency;
 public class SimpleDaemons implements Runnable {
   @Override
   public void run() {
-
+fff
   }
 }
