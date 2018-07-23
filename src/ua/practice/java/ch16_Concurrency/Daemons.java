@@ -1,5 +1,7 @@
 package ch16_Concurrency;
 
+import java.util.concurrent.TimeUnit;
+
 import static util.Print.print;
 import static util.Print.printnb;
 
@@ -36,5 +38,13 @@ class DaemonSpawn implements Runnable{
 }
 
 public class Daemons {
+    public static void main(String[] args) throws Exception{
+        Thread d = new Thread(new Daemon());
+        d.setDaemon(true);
+        d.start();
+        printnb("d.isDaemon() = " + d.isDaemon() + ". ");
+        // Allow the daemon threads to finish their startup processes:
+        TimeUnit.SECONDS.sleep(1);
+    }
 
 }
