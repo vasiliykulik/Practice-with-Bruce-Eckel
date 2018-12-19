@@ -4,6 +4,10 @@ import static util.Print.print;
 /**
  * Created by Vasiliy Kylik (Lightning) on 18.12.2018.
  */
+/****************** Exercise 2 *****************
+ * Create a class containing a float and use it to
+ * demonstrate aliasing.
+ ***********************************************/
     class Integral{
         float f;
     }
