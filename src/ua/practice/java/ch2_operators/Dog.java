@@ -8,13 +8,13 @@ public class Dog {
     String says;
 
     public static void main(String[] args) {
-        Dog spot = new Dog();
-        Dog scruffy = new Dog();
-        spot.name = "spot";
-        spot.says = "Ruff!";
-        scruffy.name = "scruffy";
-        scruffy.says = "Wurf!";
-        System.out.println(spot.name+ " : "+spot.says);
-        System.out.println(scruffy.name+ " : "+scruffy.says);
+        Dog dog1 = new Dog();
+        Dog dog2 = new Dog();
+        dog1.name = "spot";
+        dog1.says = "Ruff!";
+        dog2.name = "scruffy";
+        dog2.says = "Wurf!";
+        System.out.println(dog1.name+ " : "+dog1.says);
+        System.out.println(dog2.name+ " : "+dog2.says);
     }
 }
