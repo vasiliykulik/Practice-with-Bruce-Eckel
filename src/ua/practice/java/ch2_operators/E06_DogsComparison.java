@@ -12,13 +12,13 @@ import static util.Print.print;
 public class E06_DogsComparison {
     static void compare(E05_Dog dog1, E05_Dog dog2){
         print("== on top references: " + (dog1==dog2));
-        print("equals() on top references" + dog1.equals(dog2));
+        print("equals() on top references " + dog1.equals(dog2));
 
         print("== on top names: " + (dog1.name==dog2.name));
-        print("equals() on top names" + dog1.name.equals(dog2.name));
+        print("equals() on top names " + dog1.name.equals(dog2.name));
 
         print("== on top says: " + (dog1.says==dog2.says));
-        print("equals() on top says" + dog1.says.equals(dog2.says));
+        print("equals() on top says " + dog1.says.equals(dog2.says));
     }
 
     public static void main(String[] args) {
@@ -29,8 +29,12 @@ public class E06_DogsComparison {
         dog1.says = "Ruff!";
         dog2.name = "scruffy";
         dog2.says = "Wurf!";
-        System.out.println(dog1.name+ " : "+dog1.says);
-        System.out.println(dog2.name+ " : "+dog2.says);
+        System.out.println("Comparing dog1 and dog2 objects...");
+        compare(dog1,dog2);
+        System.out.println("Comparing dog1 and dog3 objects...");
+        compare(dog1,dog3);
+        System.out.println("Comparing dog2 and dog2 objects...");
+        compare(dog2,dog3);
 
     }
 }
