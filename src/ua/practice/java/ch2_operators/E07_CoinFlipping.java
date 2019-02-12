@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by Vasiliy Kylik (Lightning) on 05.01.2019.
  */
-public class CoinFlipping {
+public class E07_CoinFlipping {
     public static void main(String[] args) {
         Random rand = new Random(47);
         boolean flip = rand.nextBoolean();
