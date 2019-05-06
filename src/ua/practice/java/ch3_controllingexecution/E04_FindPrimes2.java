@@ -10,10 +10,7 @@ import static util.Print.printnb;
 /*One of the fastest ways of finding prime numbers is called the Sieve of
 Eratosthenes. The following program uses a boolean array to mark prime
 numbers.
-You need only test odd numbers, since 2 is the only even prime. The program
-uses a max + 1 sized array to make indexing easier. The search continues until
-you have crossed out all numbers divisible by sqrt( max), where ⎣x⎦ is the floor
-function. Additional optimizations are left as exercises.
+
 */
 public class E04_FindPrimes2 {
     public static void main(String[] args) {
@@ -43,3 +40,8 @@ public class E04_FindPrimes2 {
         }
     }
 }
+/*
+    You need only test odd numbers, since 2 is the only even prime. The program
+        uses a max + 1 sized array to make indexing easier. The search continues until
+        you have crossed out all numbers divisible by sqrt( max), where ⎣x⎦ is the floor
+        function. Additional optimizations are left as exercises.*/
