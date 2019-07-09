@@ -12,15 +12,15 @@ class Bowl {
     }
 
     void f1(int marker) {
-        print("f1(" + marker + ")");
+        print("f1(" + marker + ")"); // 4   // 12   //15
     }
 }
 
 class Table {
-    static Bowl bowl1 = new Bowl(1);
+    static Bowl bowl1 = new Bowl(1);// 1 static
 
     Table() {
-        print("Table()");
+        print("Table()"); // 3 constructor
         bowl2.f1(1);
     }
 
@@ -28,33 +28,33 @@ class Table {
         print("f2(" + marker + ")");
     }
 
-    static Bowl bowl2 = new Bowl(2);
+    static Bowl bowl2 = new Bowl(2); // 2 static
 }
 
 class Cupboard {
-    Bowl bowl3 = new Bowl(3);
-    static Bowl bowl4 = new Bowl(4);
+    Bowl bowl3 = new Bowl(3);       // 6
+    static Bowl bowl4 = new Bowl(4); // 4 static
 
     Cupboard() {
-        print("Cupboard()");
-        bowl4.f1(2);
+        print("Cupboard()");                // 7    //  11  //14
+        bowl4.f1(2);                 // 8   //  12  //15
     }
 
     void f3(int marker) {
         print("f3(" + marker + ")");
     }
 
-    static Bowl bowl5 = new Bowl(5);
+    static Bowl bowl5 = new Bowl(5); // 5 static
 }
 
 public class StaticInitialization {
     public static void main(String[] args) {
-        print("Creating new Cupboard() in main");
+        print("Creating new Cupboard() in main");   // 9
+        new Cupboard();                             // 10
+        print("Creating new Cupboard() in main");   // 13
         new Cupboard();
-        print("Creating new Cupboard() in main");
-        new Cupboard();
-        table.f2(1);
-        cupboard.f3(1);
+        table.f2(1);                        // 16
+        cupboard.f3(1);                     // 17
     }
 
 
